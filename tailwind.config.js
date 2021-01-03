@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       sans: ['"Titillium Web"']
     },
-    extend: {},
+    extend: {
+      colors: {
+        orange: '#F05E7B'
+      }
+    },
   },
   variants: {
     extend: {},

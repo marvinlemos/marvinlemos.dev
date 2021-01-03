@@ -5,7 +5,7 @@ const getUser = async(username) => {
     const resRepos = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
     const originalRepos = await resRepos.json()
 
-    const dontShowRepos = ['marvinlemos/idswsn', 'marvinlemos/kaggle-google-revenue']
+    const dontShowRepos = ['marvinlemos/idswsn', 'marvinlemos/kaggle-google-revenue', 'marvinlemos/supervisely']
 
     const dontShowFilter = repo => dontShowRepos.indexOf(repo.full_name) === -1
     const isNotForkFilter = repo => !repo.fork
@@ -14,7 +14,8 @@ const getUser = async(username) => {
         id: repo.id,
         full_name: repo.full_name,
         language: repo.language,
-        stargazers_count: repo.stargazers_count
+        stargazers_count: repo.stargazers_count,
+        description: repo.description
     })
 
     const repos = originalRepos

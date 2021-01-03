@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #f3f4fb;
+}
+
+.bg-network {
+    background: url(/images/back-network.png) top right no-repeat;
+}
