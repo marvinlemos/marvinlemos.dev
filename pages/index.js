@@ -12,7 +12,7 @@ const Index = ({ repos, user }) => {
             
             <Hero />
 
-            <div className='bg-white rounded shadow-lg py-12 px-8 mx-8 md:mx-0 md:px-16'>
+            <div className='bg-white rounded shadow-lg py-12 px-8 md:mt-6 mx-8 md:mx-0 md:px-16'>
                 <h3 className='text-4xl text-center text-orange'>What I do</h3>
                 <p className='text-2xl'>Software and Machine Learning engineer with Ph.D. in computer science and
                 10+ years of experience in applying technology to solve real-world problems.
