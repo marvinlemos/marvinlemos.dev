@@ -29,7 +29,8 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <img src='/images/cover.png' />
+                <br />
+                {/*<img src='/images/cover.png' /> */}
             </div>
         </div>
     )
