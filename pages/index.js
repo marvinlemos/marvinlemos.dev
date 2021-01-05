@@ -38,8 +38,45 @@ const Index = ({ repos, user }) => {
                         <span className='text-lg normal-case font-bold'>2010</span>
                     </div>
                 </div>
-
             </div>
+
+
+            <div className='mt-10'>
+                <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-orange'>Technical Skills</h3>
+                <div className='mx-8 md:mx-0 md:grid md:grid-cols-6 leading-none bg-white rounded shadow-lg'>
+                    <div className='px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>R</h4>
+                        <p className='text-base'>Excelent</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                    <div className='border-dashed border-t md:border-t-0 md:border-l-2  px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>Python</h4>
+                        <p className='text-base'>Good</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                    <div className='border-dashed border-t md:border-t-0 md:border-l-2  px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>Java</h4>
+                        <p className='text-base'>Very Good</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                    <div className='border-dashed border-t md:border-t-0 md:border-l-2  px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>Machine Learning</h4>
+                        <p className='text-base'>Excelent</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                    <div className='border-dashed border-t md:border-t-0 md:border-l-2  px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>Data Science</h4>
+                        <p className='text-base'>Excelent</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                    <div className='border-dashed border-t md:border-t-0 md:border-l-2  px-6 mx-8 md:mx-0 md:px-8 py-6'>
+                        <h4 className='text-1xl uppercase font-bold text-orange'>NodeJS</h4>
+                        <p className='text-base'>Very Good</p>
+                        <span className='text-lg normal-case font-bold'></span>
+                    </div>
+                </div>
+            </div>
+
 
             <div>
                 <h3 className='mx-6 md:mx-0 text-4xl font-bold text-center uppercase mt-10 text-orange'>Tech Contributions</h3>
