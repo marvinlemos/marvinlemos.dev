@@ -16,10 +16,11 @@ npm install
 npm run dev
 ```
 
-
 ## Deployment
 
 You may deploy this project on Vercel without further configurations.
+
+Please, set your [API_URL](https://github.com/marvinlemos/marvinlemos.dev-api) as an environment variable.
 
 ## Built With
 
